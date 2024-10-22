@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/01.service/</loc>
+  </url><url>
+    <loc>/02.coach/</loc>
+  </url><url>
+    <loc>/03.still/</loc>
+  </url><url>
+    <loc>/04.what/</loc>
+  </url><url>
+    <loc>/05.agile/</loc>
+  </url><url>
+    <loc>/06.aboutme/</loc>
+  </url><url>
+    <loc>/07.motivates/</loc>
+  </url><url>
+    <loc>/08.others/</loc>
+  </url><url>
+    <loc>/09.contact/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+  </url><url>
+    <loc>/</loc>
+  </url>
+</urlset>

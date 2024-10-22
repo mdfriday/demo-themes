@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link href="style.css" rel="stylesheet">
+
+<title>老袁的操作手册</title>
+<meta name="description" content="">
+
+<body>
+<div class="container" id="themanual">
+    <div class="coverimage" style="background-image: url('cover.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div class="inner">
+        <div class="hello">
+            <span style="font-weight: 300">Hello, I'm</span><br>
+            老袁讲敏捷
+        </div>
+    </div>
+</div>
+
+    
+<div id="entries">
+    <div class="item">
+            <div class="entry">
+
+                <div class="question">
+                    老袁的使用手册
+                </div>
+
+                <div class="answer">
+                    <div class="markdown">
+                        <ul>
+<li><strong>个人长期陪跑教练</strong></li>
+<li>企业级敏捷教练</li>
+<li>研发团队效能顾问</li>
+<li>unFIX中文社区发起人</li>
+<li>中国最大的敏捷主题个人自媒体（bilibili “老袁讲敏捷”）</li>
+<li>“老袁讲敏捷” 公众号和视频号</li>
+<li>长篇小说作家（湖北省作协会员）</li>
+</ul>
+<div class="image-container" style="position: relative;">
+    <img src="service.jpeg" alt="Alt text" id="image-service.jpeg"
+    style="width:800px; height:px; cursor: pointer;"
+    onclick="openFullscreen('image-service.jpeg')">
+</div>
+
+<style>
+     
+    .fullscreen-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: none;  
+        justify-content: center;
+        align-items: center;
+        z-index: 9998;  
+    }
+
+     
+    .fullscreen-img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+</style>
+
+<div id="fullscreen-background" class="fullscreen-background" onclick="hideImage()">
+    <img id="fullscreen-image" class="fullscreen-img" alt="Fullscreen Image">
+</div>
+
+<script>
+    function openFullscreen(imgId) {
+        var img = document.getElementById(imgId);
+        var fullscreenBg = document.getElementById('fullscreen-background');
+        var fullscreenImage = document.getElementById('fullscreen-image');
+
+        
+        fullscreenImage.src = img.src;
+
+        
+        fullscreenBg.style.display = 'flex';
+    }
+
+    function hideImage() {
+        var fullscreenBg = document.getElementById('fullscreen-background');
+        fullscreenBg.style.display = 'none'; 
+
+        var fullscreenImage = document.getElementById('fullscreen-image');
+        fullscreenImage.src = ''; 
+    }
+</script>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    <div class="item">
+            <div class="entry">
+
+                <div class="question">
+                    什么是个人长期陪跑教练？
+                </div>
+
+                <div class="answer">
+                    <div class="markdown">
+                        <p>就像是针对职场工作的1对1私教教练，每周我们会保持一次沟通，关注当下工作上的挑战或是问题。</p>
+<p>技术上的挑战？情绪上的问题？迷茫或者是担心？</p>
+<p>我们将会在足够安全的环境下耐心地拆解，共同寻找应对的方法。</p>
+<p>如果觉得老袁之前的经历对你有帮助，可以一同回顾过往的经验，
+如果觉得需要搭建体系化的工作，可以一起梳理都有哪些环节需要考虑，如何展开工作，
+如果不知道该如何应对老板和同事……老袁也不一定知道，但是我们可以看看工具箱里的工具和方法
+如果就是心情不爽，那么我们一起聊聊闲天，找到情绪的“堵点”</p>
+<p>长期陪跑教练关注长期的发展，而不是一次性的课程，关注不断涌现的、新的挑战和价值……</p>
+<p>你会发现你的述职汇报格局更大，你的心态要更强大，因为你的身边有陪跑教练🍺🍺🍺</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    <div class="item">
+            <div class="entry">
+
+                <div class="question">
+                    仍然还是不知道到底有哪些内容？
+                </div>
+
+                <div class="answer">
+                    <div class="markdown">
+                        <p><img src="what.png" alt="what"></p>
+<p>以上这四个方向，对于处在不同位置的角色（团队级、跨团队、Agile Coach、企业级、个人目标），都有一系列对应的知识体系。</p>
+<p>当我们遇到具体问题的时候，例如：</p>
+<p>怎样拆解需求？需求归口太多，怎么管？优先级乱来，怎么管？</p>
+<p>如何向领导汇报？或是争取资源？如何给项目争取更多的时间？</p>
+<p>如何识别团队的“恐惧”？面对“有毒”的组员，如何发起一次正式严肃的谈话？</p>
+<p>如何建立质量体系？如何推进一项组织变革？如何搭建 DevOps 团队？如何管理团队知识库？</p>
+<p>在没有实权的情况下，如何建立影响力？</p>
+<p>新人得怎么带？公司的新手村该怎么组织？</p>
+<p>并不是一两句“聪明话”，就解决问题的，而是背后的知识体系支撑。</p>
+<div class="image-container" style="position: relative;">
+    <img src="coach.png" alt="知识体系" id="image-coach.png"
+    style="width:800px; height:px; cursor: pointer;"
+    onclick="openFullscreen('image-coach.png')">
+</div>
+
+<style>
+     
+    .fullscreen-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: none;  
+        justify-content: center;
+        align-items: center;
+        z-index: 9998;  
+    }
+
+     
+    .fullscreen-img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+</style>
+
+<div id="fullscreen-background" class="fullscreen-background" onclick="hideImage()">
+    <img id="fullscreen-image" class="fullscreen-img" alt="Fullscreen Image">
+</div>
+
+<script>
+    function openFullscreen(imgId) {
+        var img = document.getElementById(imgId);
+        var fullscreenBg = document.getElementById('fullscreen-background');
+        var fullscreenImage = document.getElementById('fullscreen-image');
+
+        
+        fullscreenImage.src = img.src;
+
+        
+        fullscreenBg.style.display = 'flex';
+    }
+
+    function hideImage() {
+        var fullscreenBg = document.getElementById('fullscreen-background');
+        fullscreenBg.style.display = 'none'; 
+
+        var fullscreenImage = document.getElementById('fullscreen-image');
+        fullscreenImage.src = ''; 
+    }
+</script>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    <div class="item">
+            <div class="entry">
+
+                <div class="question">
+                    What can I do for you？
+                </div>
+
+                <div class="answer">
+                    <div class="markdown">
+                        <h3 id="专业知识和能力">专业知识和能力</h3>
+<ul>
+<li>团队和个人敏捷教练、高管教练 （长期陪跑教练）</li>
+<li>敏捷团队成熟度评估</li>
+<li>看板管理体系</li>
+<li>unFIX组织设计</li>
+<li>价值驱动的业务和产品管理体系</li>
+<li>质量管理体系建设</li>
+<li>Lean-Roadmap产品探索方法</li>
+<li>设计冲刺</li>
+<li>行为驱动开发</li>
+</ul>
+<h3 id="关于我的职业经历">关于我的职业经历</h3>
+<p>研究生毕业后一直在软件领域工作：程序员、自动化和工业化工程师、性能工程师、质量工程师、PM、PO、BA、SM、咨询师、教练等等</p>
+<p>扮演过不同角色：甲方、乙方、team leader、QA manager、管理、外部咨询、创业老板、团队教练和个人教练……曾在国内创业、thoughtworks咨询师、又创业</p>
+<p>合作过不同国家的研发团队：中国、法国、英国、美国、白俄罗斯、越南、罗马尼亚</p>
+<p>曾经项目涉及过的领域：军方（战地指挥系统）、电信、零售、无人机、文旅、金属机加工、户外广告、智慧农业、智慧小区、消费3C、大气环境、工业物联网、交通、汽车制造……</p>
+<p>项目曾涉及过的企业：Thales 泰雷兹集团、沃达丰法国、布伊格电信、家乐福、壳牌石油、JCDecaux法国德高集团、Huawei华为、Cummins康明斯、Mercedes Benz梅赛德斯奔驰、武汉精臣智慧标识等等</p>
+<p>可交流的语言：中文、英语、法语</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    <div class="item">
+            <div class="entry">
+
+                <div class="question">
+                    关于敏捷？
+                </div>
+
+                <div class="answer">
+                    <div class="markdown">
+                        <h3 id="接触敏捷有多久了">接触敏捷有多久了?</h3>
+<p>我第一次接触敏捷是2011年，在法国布伊格电信机顶盒项目中，因为项目严重失败而不得不重新考虑新的工作方法。
+那时候第一次接触的敏捷，完全符合一本书的书名“用一半的时间做两倍的事”。</p>
+<h3 id="规模化敏捷转型">规模化敏捷转型?</h3>
+<p>2013年，作为scrum master（或coordinator）第一次成功采用BDD来驱动一个跨国组织的敏捷转型，敏捷转型涵盖了英、法、美团队，以及白俄罗斯、罗马尼亚、越南六个开发中心的范围。</p>
+<p>在技术方面，采用了BDD（SpecFlow）推进了业务语言统一，组建了DevOps团队，用持续测试和CICD（微软全家桶TFS 2012）实现了安全地快速集成快速发布。</p>
+<p>在文化方面，赋能和帮助不同国家的不同团队的共同成长，促进自组织，建设心理安全，勇敢沟通的文化，消除多国离岸交付、跨团队协作的瓶颈。</p>
+<h3 id="什么是敏捷教练">什么是敏捷教练？</h3>
+<p>作为敏捷教练，我通过观察、访谈、问卷和沉浸式体验的方法对团队进行敏捷成熟度评估，在不同纬度给出成熟度的评估意见，分析团队现状和瓶颈的洞见、探索和实验改善的方法，最后推进改善工作的进行。</p>
+<p>敏捷教练与敏捷培训授课不同，是与团队的中、长期陪伴，在团队的日常工作中，激励团队找到自我改善的方法。</p>
+<h3 id="关于老袁讲敏捷">关于“老袁讲敏捷”？</h3>
+<a href="https://space.bilibili.com/36395967/" target="_blank" class="card-link">
+<div class="card">
+    <img src="laoyuan.png" alt="Card Image" class="card-img">
+    <div class="card-content">
+        <h3 class="card-title">老袁讲敏捷的哔哩哔哩空间</h3>
+        <p class="card-text">个人职场教练 | 团队教练 | 研发团队效能顾问 | 作家 微：yyhasawechatID 【老袁讲敏捷】官方号</p>
+    </div>
+</div>
+
+<style>
+    .card {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+        text-align: center;
+        margin: 16px;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-content {
+        padding: 16px;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        margin: 0 0 8px 0;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #555;
+    }
+
+    .card-btn {
+        display: inline-block;
+        padding: 8px 16px;
+        margin-top: 12px;
+        background-color: #007BFF;
+        color: #fff;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .card-btn:hover {
+        background-color: #0056b3;
+    }
+
+</style>
+</a>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    <div class="item">
+            <div class="entry">
+
+                <div class="question">
+                    About me？
+                </div>
+
+                <div class="answer">
+                    <div class="markdown">
+                        <h3 id="关于我的人生经历">关于我的人生经历</h3>
+<ul>
+<li>1982年出生、湖北人</li>
+<li>2000年考入北京航空航天大学电子信息专业本科</li>
+<li>2004年本科毕业旅法求学，法国Centrale-Supelec双硕士（现法国top2工程师学校）</li>
+<li>2015年底拉着家人从巴黎一起回国（创业），现定居武汉</li>
+<li>2019年至今一直是独立教练、独立咨询师</li>
+</ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    <div class="item">
+            <div class="entry">
+
+                <div class="question">
+                    老袁的仰望
+                </div>
+
+                <div class="answer">
+                    <div class="markdown">
+                        <h3 id="what-motivates-me">What motivates me?</h3>
+<p>希望能够与同心同德的团队一起，共同改善中文语境下的企业组织文化。</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    <div class="item">
+            <div class="entry">
+
+                <div class="question">
+                    工作之外
+                </div>
+
+                <div class="answer">
+                    <div class="markdown">
+                        <h3 id="写小说">写小说</h3>
+<p>已经出版的小说《拾年 109封没寄出的信》，京东天猫有售，百余家图书馆馆藏，微信图书上架</p>
+<p>109是我的巴黎三部曲的第一部（年轻人来到巴黎，异乡求学，讲述青春的故事），后面已经写完了第二部《寻找安托万》（讲述友情的故事），第三部《岛上中餐馆》也已经写完了一半（讲述亲情的故事），希望有生之能能够出版这三本书。</p>
+<h3 id="解构">《解构》</h3>
+<p>我也写了一本关于数字化团队方面管理的书，叫《解构 揭开数字化团队的迷雾》，用解构的方法，解开数字化团队的迷雾，部分已经上传到公众号“老袁讲敏捷”上。</p>
+<h3 id="野生敏捷教练老袁-哔哩哔哩up主">“野生敏捷教练老袁” 哔哩哔哩up主</h3>
+<p>我是哔哩哔哩上的一名up主，长期上传关于敏捷话题相关的视频。</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    <div class="item">
+            <div class="entry">
+
+                <div class="question">
+                    沟通方式
+                </div>
+
+                <div class="answer">
+                    <div class="markdown">
+                        <h3 id="怎样找到我">怎样找到我?</h3>
+<p>微信： yyhasawechatID （不过请一定备注一下事由哦～）</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+ 
+</div>
+<footer>
+    <p>老袁的操作手册 © 2024 Created with love by <a href="https://mdfiriday.com"><b>MD Friday</b></a></p>
+</footer>
+ 
+</body>
+</html>
+

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>老袁的操作手册</title>
+    <link>/</link>
+    <description>Recent content on 老袁的操作手册</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>老袁的使用手册</title>
+      <link>/01.service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01.service/</guid>
+      <description> 个人长期陪跑教练 企业级敏捷教练 研发团队效能顾问 unFIX中文社区发起人 中国最大的敏捷主题个人自媒体（bilibili “老袁讲敏捷”） “老袁讲敏捷” 公众号和视频号 长篇小说作家（湖北省作协会员） </description>
+    </item>
+    
+    <item>
+      <title>什么是个人长期陪跑教练？</title>
+      <link>/02.coach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02.coach/</guid>
+      <description>就像是针对职场工作的1对1私教教练，每周我们会保持一次沟通，关注当下工作上的挑战或是问题。
+技术上的挑战？情绪上的问题？迷茫或者是担心？
+我们将会在足够安全的环境下耐心地拆解，共同寻找应对的方法。
+如果觉得老袁之前的经历对你有帮助，可以一同回顾过往的经验， 如果觉得需要搭建体系化的工作，可以一起梳理都有哪些环节需要考虑，如何展开工作， 如果不知道该如何应对老板和同事……老袁也不一定知道，但是我们可以看看工具箱里的工具和方法 如果就是心情不爽，那么我们一起聊聊闲天，找到情绪的“堵点”
+长期陪跑教练关注长期的发展，而不是一次性的课程，关注不断涌现的、新的挑战和价值……
+你会发现你的述职汇报格局更大，你的心态要更强大，因为你的身边有陪跑教练🍺🍺🍺</description>
+    </item>
+    
+    <item>
+      <title>仍然还是不知道到底有哪些内容？</title>
+      <link>/03.still/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03.still/</guid>
+      <description>以上这四个方向，对于处在不同位置的角色（团队级、跨团队、Agile Coach、企业级、个人目标），都有一系列对应的知识体系。
+当我们遇到具体问题的时候，例如：
+怎样拆解需求？需求归口太多，怎么管？优先级乱来，怎么管？
+如何向领导汇报？或是争取资源？如何给项目争取更多的时间？
+如何识别团队的“恐惧”？面对“有毒”的组员，如何发起一次正式严肃的谈话？
+如何建立质量体系？如何推进一项组织变革？如何搭建 DevOps 团队？如何管理团队知识库？
+在没有实权的情况下，如何建立影响力？
+新人得怎么带？公司的新手村该怎么组织？
+并不是一两句“聪明话”，就解决问题的，而是背后的知识体系支撑。</description>
+    </item>
+    
+    <item>
+      <title>What can I do for you？</title>
+      <link>/04.what/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04.what/</guid>
+      <description>专业知识和能力 团队和个人敏捷教练、高管教练 （长期陪跑教练） 敏捷团队成熟度评估 看板管理体系 unFIX组织设计 价值驱动的业务和产品管理体系 质量管理体系建设 Lean-Roadmap产品探索方法 设计冲刺 行为驱动开发 关于我的职业经历 研究生毕业后一直在软件领域工作：程序员、自动化和工业化工程师、性能工程师、质量工程师、PM、PO、BA、SM、咨询师、教练等等
+扮演过不同角色：甲方、乙方、team leader、QA manager、管理、外部咨询、创业老板、团队教练和个人教练……曾在国内创业、thoughtworks咨询师、又创业
+合作过不同国家的研发团队：中国、法国、英国、美国、白俄罗斯、越南、罗马尼亚
+曾经项目涉及过的领域：军方（战地指挥系统）、电信、零售、无人机、文旅、金属机加工、户外广告、智慧农业、智慧小区、消费3C、大气环境、工业物联网、交通、汽车制造……
+项目曾涉及过的企业：Thales 泰雷兹集团、沃达丰法国、布伊格电信、家乐福、壳牌石油、JCDecaux法国德高集团、Huawei华为、Cummins康明斯、Mercedes Benz梅赛德斯奔驰、武汉精臣智慧标识等等
+可交流的语言：中文、英语、法语</description>
+    </item>
+    
+    <item>
+      <title>关于敏捷？</title>
+      <link>/05.agile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05.agile/</guid>
+      <description>接触敏捷有多久了? 我第一次接触敏捷是2011年，在法国布伊格电信机顶盒项目中，因为项目严重失败而不得不重新考虑新的工作方法。 那时候第一次接触的敏捷，完全符合一本书的书名“用一半的时间做两倍的事”。
+规模化敏捷转型? 2013年，作为scrum master（或coordinator）第一次成功采用BDD来驱动一个跨国组织的敏捷转型，敏捷转型涵盖了英、法、美团队，以及白俄罗斯、罗马尼亚、越南六个开发中心的范围。
+在技术方面，采用了BDD（SpecFlow）推进了业务语言统一，组建了DevOps团队，用持续测试和CICD（微软全家桶TFS 2012）实现了安全地快速集成快速发布。
+在文化方面，赋能和帮助不同国家的不同团队的共同成长，促进自组织，建设心理安全，勇敢沟通的文化，消除多国离岸交付、跨团队协作的瓶颈。
+什么是敏捷教练？ 作为敏捷教练，我通过观察、访谈、问卷和沉浸式体验的方法对团队进行敏捷成熟度评估，在不同纬度给出成熟度的评估意见，分析团队现状和瓶颈的洞见、探索和实验改善的方法，最后推进改善工作的进行。
+敏捷教练与敏捷培训授课不同，是与团队的中、长期陪伴，在团队的日常工作中，激励团队找到自我改善的方法。
+关于“老袁讲敏捷”？ 老袁讲敏捷的哔哩哔哩空间 个人职场教练 | 团队教练 | 研发团队效能顾问 | 作家 微：yyhasawechatID 【老袁讲敏捷】官方号</description>
+    </item>
+    
+    <item>
+      <title>About me？</title>
+      <link>/06.aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06.aboutme/</guid>
+      <description>关于我的人生经历 1982年出生、湖北人 2000年考入北京航空航天大学电子信息专业本科 2004年本科毕业旅法求学，法国Centrale-Supelec双硕士（现法国top2工程师学校） 2015年底拉着家人从巴黎一起回国（创业），现定居武汉 2019年至今一直是独立教练、独立咨询师 </description>
+    </item>
+    
+    <item>
+      <title>老袁的仰望</title>
+      <link>/07.motivates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07.motivates/</guid>
+      <description>What motivates me? 希望能够与同心同德的团队一起，共同改善中文语境下的企业组织文化。</description>
+    </item>
+    
+    <item>
+      <title>工作之外</title>
+      <link>/08.others/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/08.others/</guid>
+      <description>写小说 已经出版的小说《拾年 109封没寄出的信》，京东天猫有售，百余家图书馆馆藏，微信图书上架
+109是我的巴黎三部曲的第一部（年轻人来到巴黎，异乡求学，讲述青春的故事），后面已经写完了第二部《寻找安托万》（讲述友情的故事），第三部《岛上中餐馆》也已经写完了一半（讲述亲情的故事），希望有生之能能够出版这三本书。
+《解构》 我也写了一本关于数字化团队方面管理的书，叫《解构 揭开数字化团队的迷雾》，用解构的方法，解开数字化团队的迷雾，部分已经上传到公众号“老袁讲敏捷”上。
+“野生敏捷教练老袁” 哔哩哔哩up主 我是哔哩哔哩上的一名up主，长期上传关于敏捷话题相关的视频。</description>
+    </item>
+    
+    <item>
+      <title>沟通方式</title>
+      <link>/09.contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09.contact/</guid>
+      <description>怎样找到我? 微信： yyhasawechatID （不过请一定备注一下事由哦～）</description>
+    </item>
+    
+  </channel>
+</rss>
